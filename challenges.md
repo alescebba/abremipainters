@@ -4,9 +4,9 @@ title: Challenges Faced
 description:
 ---
 ## Challenges and Solutions
+The KE4H project presented a series of complex challenges that required both technical expertise and problem-solving approaches. In this section, we will explore the key challenges we encountered and outline the solutions we implemented to overcome them, ultimately ensuring the success of the project.
 
-# 1. Crafting accurate SPARQL Queries
-The Challenge of Crafting Accurate SPARQL Queries
+# 1. Generating precise SPARQL Queries
 
 Challenge: writing accurate SPARQL queries for platforms like Wikidata can be challenging, especially for beginners. The complexity originates from understanding the structure of RDF data, the variety of prefixes used, and the way relationships between entities are modeled. Even simple questions can require nested patterns filtered with functions like FILTER, OPTIONAL, or UNION. A small error in syntax or logic can result in no results or misleading ones.
 
@@ -17,13 +17,13 @@ Challenge: A common challenge when using large language models (LLMs) to generat
 
 Solution: Since Q-IDs are critical for targeting the right entities, such errors often require manual verification and correction by cross-checking on Wikidata. While LLMs can accelerate query generation, human oversight remains essential to ensure factual accuracy.
 
-# 3. Adding an image 
+# 3. Inserting an image 
 
 Challenge: One of the challenges we faced was to understand how to add an image to the Wikidata entry, particularly due to concerns around copyright and licensing. 
 
 Solution: Before using the selected image, we had to verify that it was freely available and appropriately licensed for reuse. To address this, we aimed to include an image of Marcantonio Chiarini and identified a suitable file on Wikimedia Commons: File: Ritratto di Marcantonio Chiarini (bulino).jpg. To simplify the integration, we asked ChatGPT to generate the corresponding RDF triple code for the image, which we then included in our proposal as a way to fill this gap efficiently. 
 
-# 4. Building and structuring the website 
+# 4. Developing and structuring the website 
 
 Challenge: As none of us had experience with building websites, neither on GitHub nor with Jekyll, the process took a lot of trial and error following thorough documentation. Making sure all the pages followed a consistent theme and looked cohesive was also tough, for which team effort and support were key to reaching the desired outcome. 
 
